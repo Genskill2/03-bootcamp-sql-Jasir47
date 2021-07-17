@@ -1,3 +1,4 @@
+PRAGMA foreign_key = ON;
 create table publisher (
              id serial primary key,
              name text,
