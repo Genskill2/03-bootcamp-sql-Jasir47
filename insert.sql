@@ -1,4 +1,4 @@
-PRAGMA foreign_keys = ON;
+
 
 
 insert into publisher (name , books, country) values ('PHI','The C Programming Language','India');
