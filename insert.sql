@@ -1,3 +1,4 @@
+PRAGMA foreign_keys = ON;
 insert into books (title ,publisher) values ('The C Programming Language',1 );
 insert into books (title ,publisher) values ('The Go Programming Language',2);
 insert into books (title ,publisher) values ('The UNIX Programming Environment',3);
