@@ -1,4 +1,17 @@
 PRAGMA foreign_keys = ON;
+
+
+insert into publisher (name , books, country) values ('PHI','The C Programming Language','India');
+insert into publisher (name , books,country) values ('PHI','The Go Programming Language','India');
+insert into publisher (name , books,country) values ('PHI','The UNIX Programming Environment','India');
+insert into publisher (name , books,country) values ('Harper','Cryptonomicon','USA');
+insert into publisher (name , books,country) values ('GCP','Deep Work','USA');
+insert into publisher (name , books,country) values ('Avery','Atomic Habits','USA');
+insert into publisher (name , books, country) values ('Del Rey','The City and The City','UK');
+insert into publisher (name , books, country) values ('Vintage','The Great War for Civilisation','UK');
+
+
+
 insert into books (title ,publisher) values ('The C Programming Language',1 );
 insert into books (title ,publisher) values ('The Go Programming Language',2);
 insert into books (title ,publisher) values ('The UNIX Programming Environment',3);
@@ -10,14 +23,7 @@ insert into books (title ,publisher) values ('The Great War for Civilisation',8)
 
 
 
-insert into publisher (name , books, country) values ('PHI','The C Programming Language','India');
-insert into publisher (name , books,country) values ('PHI','The Go Programming Language','India');
-insert into publisher (name , books,country) values ('PHI','The UNIX Programming Environment','India');
-insert into publisher (name , books,country) values ('Harper','Cryptonomicon','USA');
-insert into publisher (name , books,country) values ('GCP','Deep Work','USA');
-insert into publisher (name , books,country) values ('Avery','Atomic Habits','USA');
-insert into publisher (name , books, country) values ('Del Rey','The City and The City','UK');
-insert into publisher (name , books, country) values ('Vintage','The Great War for Civilisation','UK');
+
 
 
 
