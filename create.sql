@@ -1,25 +1,25 @@
 
 create table publisher (
-             id serial primary key,
+             id integer primary key,
              name text,
              books text,
              country text
                         );
 
 create table books    (
-             id serial primary key,
+             id integer primary key,
              title text,
-             publisher serial references publisher(id)
+             publisher integer references publisher(id)
                         );
                         
 create table subjects  (
-             id serial primary key ,
+             id integer primary key ,
              name text
                        );
                        
 create table books_subjects (
-             book serial references books(id),
-             subject serial references subjects(id)
+             book integer references books(id),
+             subject integer references subjects(id)
                              );
                                    
                                    
